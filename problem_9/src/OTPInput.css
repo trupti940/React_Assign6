@@ -1,0 +1,48 @@
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .otp-container input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .otp-container input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 3px #007bff;
+  }
+  
+  .otp-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .otp-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 600px) {
+    .otp-container input {
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+    }
+  }
+  
